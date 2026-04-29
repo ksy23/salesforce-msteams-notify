@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomMetadata xmlns="http://soap.sforce.com/2006/04/metadata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <label>Account Notifications</label>
+    <protected>false</protected>
+    <values>
+        <field>Conditions__c</field>
+        <value xsi:type="xsd:string">NumberOfEmployees &gt; 100
+ESI_Relationship_Status__c = Client</value>
+    </values>
+    <values>
+        <field>Custom_Card_Payload__c</field>
+        <value xsi:nil="true"/>
+    </values>
+    <values>
+        <field>Fields_To_Display__c</field>
+        <value xsi:type="xsd:string">Name,Industry,Phone,Website, ESI_Relationship_Status__c</value>
+    </values>
+    <values>
+        <field>Is_Active__c</field>
+        <value xsi:type="xsd:boolean">true</value>
+    </values>
+    <values>
+        <field>Object_API_Name__c</field>
+        <value xsi:type="xsd:string">Account</value>
+    </values>
+    <values>
+        <field>Trigger_On_Delete__c</field>
+        <value xsi:type="xsd:boolean">true</value>
+    </values>
+    <values>
+        <field>Trigger_On_Insert__c</field>
+        <value xsi:type="xsd:boolean">true</value>
+    </values>
+    <values>
+        <field>Trigger_On_Update__c</field>
+        <value xsi:type="xsd:boolean">true</value>
+    </values>
+    <values>
+        <field>Webhook_URL_Long__c</field>
+        <value xsi:type="xsd:string">https://default791b26cb3fdf47c3b85dbd9f037e3e.7f.environment.api.powerplatform.com:443/powerautomate/automations/direct/workflows/670fe98a654f4506af616e12934ede47/triggers/manual/paths/invoke?api-version=1&amp;sp=%2Ftriggers%2Fmanual%2Frun&amp;sv=1.0&amp;sig=AeuzuskGKcC2tUDbTfZZlqjUXTArEVP2WmZUQMxSU6M</value>
+    </values>
+    <values>
+        <field>Webhook_URL__c</field>
+        <value xsi:type="xsd:string">https://outlook.office.com/webhook/YOUR_WEBHOOK_URL_HERE</value>
+    </values>
+</CustomMetadata>

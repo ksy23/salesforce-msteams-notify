@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Trigger_On_Insert__c</fullName>
+    <defaultValue>true</defaultValue>
+    <description>When enabled, sends a notification when a record is created.</description>
+    <externalId>false</externalId>
+    <fieldManageability>DeveloperControlled</fieldManageability>
+    <label>Trigger On Insert</label>
+    <type>Checkbox</type>
+</CustomField>
+

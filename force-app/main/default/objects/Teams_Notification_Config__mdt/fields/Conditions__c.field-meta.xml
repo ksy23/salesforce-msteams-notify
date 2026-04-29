@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Conditions__c</fullName>
+    <description>Conditions that must be met to send the notification. Each line is a condition in format: FieldName OPERATOR Value. Multiple conditions are AND'd together. Leave blank to always send. Operators: EQUALS, NOT_EQUALS, CHANGED, CHANGED_TO, CHANGED_FROM, CONTAINS, IN, NOT_IN, IS_BLANK, IS_NOT_BLANK, GREATER_THAN, LESS_THAN.</description>
+    <externalId>false</externalId>
+    <fieldManageability>DeveloperControlled</fieldManageability>
+    <label>Conditions</label>
+    <length>5000</length>
+    <type>LongTextArea</type>
+    <visibleLines>5</visibleLines>
+</CustomField>
+

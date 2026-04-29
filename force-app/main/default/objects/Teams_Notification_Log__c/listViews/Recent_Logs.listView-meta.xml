@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Recent_Logs</fullName>
+    <columns>NAME</columns>
+    <columns>Is_Success__c</columns>
+    <columns>Source_Object__c</columns>
+    <columns>Config_Name__c</columns>
+    <columns>Action_Type__c</columns>
+    <columns>Processing_Time_Ms__c</columns>
+    <columns>Sent_DateTime__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Sent_DateTime__c</field>
+        <operation>equals</operation>
+        <value>LAST_N_DAYS:7</value>
+    </filters>
+    <label>Recent Logs (Last 7 Days)</label>
+</ListView>
+

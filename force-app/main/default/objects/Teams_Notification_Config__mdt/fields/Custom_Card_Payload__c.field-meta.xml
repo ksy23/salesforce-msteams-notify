@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Custom_Card_Payload__c</fullName>
+    <description>Custom Adaptive Card JSON payload template. Use merge fields like {!Name}, {!Id}, {!RecordUrl}, {!ActionType}, {!ObjectName}, {!Timestamp} to insert dynamic values. If blank, the default card format is used.</description>
+    <externalId>false</externalId>
+    <fieldManageability>DeveloperControlled</fieldManageability>
+    <label>Custom Card Payload</label>
+    <length>32000</length>
+    <type>LongTextArea</type>
+    <visibleLines>10</visibleLines>
+</CustomField>
+

@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PermissionSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>Read-only access to Teams Notification Logs. Assign to users who need to view notification history but not modify records.</description>
+    <hasActivationRequired>false</hasActivationRequired>
+    <label>Teams Notification Viewer</label>
+    
+    <!-- Object Permissions (Read Only) -->
+    <objectPermissions>
+        <allowCreate>false</allowCreate>
+        <allowDelete>false</allowDelete>
+        <allowEdit>false</allowEdit>
+        <allowRead>true</allowRead>
+        <modifyAllRecords>false</modifyAllRecords>
+        <object>Teams_Notification_Log__c</object>
+        <viewAllRecords>true</viewAllRecords>
+    </objectPermissions>
+    
+    <!-- Field Permissions (Read Only) -->
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Teams_Notification_Log__c.Source_Record_Id__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Teams_Notification_Log__c.Source_Object__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Teams_Notification_Log__c.Config_Name__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Teams_Notification_Log__c.Action_Type__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Teams_Notification_Log__c.Webhook_URL__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Teams_Notification_Log__c.Request_Payload__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Teams_Notification_Log__c.Response_Status_Code__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Teams_Notification_Log__c.Response_Body__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Teams_Notification_Log__c.Is_Success__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Teams_Notification_Log__c.Error_Message__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Teams_Notification_Log__c.Sent_DateTime__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Teams_Notification_Log__c.Processing_Time_Ms__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    
+    <!-- Tab Visibility -->
+    <tabSettings>
+        <tab>Teams_Notification_Log__c</tab>
+        <visibility>Visible</visibility>
+    </tabSettings>
+</PermissionSet>
+

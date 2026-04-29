@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Package xmlns="http://soap.sforce.com/2006/04/metadata">
+    <types>
+        <members>Teams_Notification_Config.Account_Notifications</members>
+        <name>CustomMetadata</name>
+    </types>
+    <types>
+        <members>Teams_Notification_Config__mdt.Webhook_URL__c</members>
+        <name>CustomField</name>
+    </types>
+    <version>59.0</version>
+</Package>
+

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RemoteSiteSetting xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Power_Platform_Webhook</fullName>
+    <description>Allows callouts to Power Automate webhooks for Teams notifications.</description>
+    <disableProtocolSecurity>false</disableProtocolSecurity>
+    <isActive>true</isActive>
+    <url>https://default791b26cb3fdf47c3b85dbd9f037e3e.7f.environment.api.powerplatform.com</url>
+</RemoteSiteSetting>
+

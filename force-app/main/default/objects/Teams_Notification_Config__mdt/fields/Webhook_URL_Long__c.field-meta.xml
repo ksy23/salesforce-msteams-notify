@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Webhook_URL_Long__c</fullName>
+    <description>Long webhook URL field for Power Automate or other URLs exceeding 255 characters. Takes precedence over Webhook_URL__c if populated.</description>
+    <externalId>false</externalId>
+    <fieldManageability>DeveloperControlled</fieldManageability>
+    <label>Webhook URL (Long)</label>
+    <length>2000</length>
+    <type>LongTextArea</type>
+    <visibleLines>3</visibleLines>
+</CustomField>
+
